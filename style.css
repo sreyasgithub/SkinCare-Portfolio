@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*common*/
+body{
+    width: 100vw!important;
+    overflow-x: hidden;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 50px;
+    color: inherit;
+}
+.container{
+    padding: 40px!important;
+}
+.no-marin-container{
+    padding: 40px 0px !important
+}
+.sectn{
+    padding: 60px 0px;
+}
+.christina{
+   font-family: 'Allison', cursive;font-size: 60px
+}
+.galbato{
+font-family: 'Kaisei Tokumin', serif;text-transform:uppercase;font-size: 40px;
+}
+.para-text-heading{
+    color: #4b4d4d;
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.para-text{
+    color: #5b5e5e;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 1px;
+}
+button:focus{
+    outline: none;
+    border: none;
+}
+.button{
+    border: none;
+    padding: 10px 20px;
+    min-width: fit-content;
+    color: #fff;
+    background-color: #CCAEAB;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-transform: uppercase;
+  
+}
+
+.sweet-reads{
+    font-family: 'Allison', cursive;font-size: 70px;margin-bottom: 20px;
+}
+.the-blog{
+   font-family: 'Montserrat', sans-serif;font-size:60px;
+}
+.the-blog-cards{
+    margin-top: 50px;
+}
+/*navbar*/
+.nav-item{
+    font-family: 'Hind Siliguri', sans-serif;
+    text-transform: uppercase;
+}
+.navbar-collapse{
+    flex-grow: initial;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border: none;
+}
+/* .navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: none!important;
+} */
+
+/*banner*/
+.banner{
+    background: linear-gradient(rgba(235, 211, 227, 0.2),rgba(0,0,0,.8)), url(./images/home/banner.jpg) no-repeat;
+   opacity: 0.6;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.banner-para{
+    /* position: absolute;
+    top:22%;
+    left: 30%; */
+    /* width: 430px; */
+    font-size: 35px;
+    font-family: Lora, serif;
+    margin:0px 30px;
+    color: #fff;
+
+}
+.home-banner-img{
+    margin-top: -20vmin;
+}
+/*intro*/
+.stylish{
+    font-family: 'Libre Baskerville';
+    color: #CCAEAB;
+
+}
+.carousel-inner{
+    text-align: center;
+
+}
+
+/*cards*/
+.card{
+    border: none;
+    border-radius: initial;
+    margin:20px 0px
+}
+.card-body{
+    padding-bottom: 10px;
+}
+.card-text{
+    color: rgb(173, 173, 175);
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.card-footer {
+    padding: 0rem 1.25rem 1.5rem;
+    background:none;
+    border:none;
+    text-transform: uppercase;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.card-btn{
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background: transparent;
+    color: #fff;
+    margin-top: 50px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/*coaching*/
+.coaching{
+    background-color: #F7F5F4;
+    height:500px;
+    width: 90%;
+
+}
+.coach-image{
+    position: absolute;
+    top: 8%;
+    left: -18%;
+    /* width: 1%; */
+    /* height: 100%; */
+}
+.coaching-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    left: -10%;
+}
+/*mylife episodes*/
+.featured-episodes-container{
+    padding: 40px!important;
+}
+.featuredEpText{
+    font-family: 'Allison', cursive;
+    color: #CCAEAB;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.play-icon{
+    background-color: thistle;
+}
+.fave-img-container{
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    margin:30px 0px;
+    align-items: center;
+     /* width: 500px;
+     height: 500px; */
+}
+.current-fave{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.episode{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-top: 1px solid #ccaeab;
+    padding: 20px;
+    width: 80%;
+}
+/* .episode-link{
+    display: flex;
+} */
+.SNo{
+    color: #CCAEAB;
+}
+.episode-name{
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    color: #6b6b6b;
+}
+.fa-play-circle{
+    padding-left: 30px;
+    font-size: 30px;
+    color: #CCAEAB;
+}
+/*anchor tag*/
+.button a,.card-btn a{
+    color: #fff;
+}
+.findMore a{
+    color: #000;
+}
+a:hover{
+    color: rgb(129, 129, 129);
+   text-decoration: none;
+   transition: color 0.5s ease;
+}
+.insta a{
+    color: rgb(129, 129, 129);
+}
+
+/*carousal*/
+.carousel-section{
+    background-color:#F7F5F4;
+}
+.student-name{
+    font-family: 'Allison', cursive;
+    font-size: 50px;
+}
+.stu-View{
+    font-family: 'Libre Baskerville', serif;
+    font-weight:lighter;
+    color: #45443E;
+}
+.stu-say{
+    color: #5b5e5e;
+    font-family: 'Questrial', sans-serif;
+}
+.carousel-control-next, .carousel-control-prev {
+    color: #000!important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(#D6C4BE,#F7F5F4);
+    background-size: 100% 100%;
+    /* border: 1px solid #000; */
+    color: #000;
+    padding: 10px;
+}
+.carousel-control-next-icon{
+    background-image: url(./images/home/icons8-right-arrow-30.png);
+    
+}
+.carousel-control-prev-icon{
+    background-image: url(./images/home/icons8-left-arrow-30.png);
+   
+}
+.carousel-control-next, .carousel-control-prev {
+    width:60px;
+    height: fit-content;
+    top: 50%;
+    border: 1px solid #D6C4BE ;
+
+}
+.carousel-control-next{
+    right: -8%;
+}
+.carousel-control-prev{
+    left: -8%;
+}
+
+/*save my post*/
+.post{
+    /* background: url(./images/home/post.png) no-repeat fixed ; */
+    max-height: 100%;
+    position: relative;
+    /* min-height: 450px;
+    background-size: contain; */
+
+}
+.post-img{
+    width: 100%;
+    height: 100%;
+    
+}
+.savepostbtn{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+/*courses*/
+.course-details {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align: center; */
+    align-items: flex-start;
+    margin:40px 0px;
+}
+.findMore{
+    border: 1px solid #D6C4BE;
+    outline: none;
+    padding: 10px 20px;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 50px;
+}
+@media (max-width:991px) {
+    .post{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .post-img{
+        width: 50%;
+    }
+    
+}
+
+/*bottom insta feed*/
+.insta-posts{
+    width: 240px;
+    height: 240px;
+}
+.insta{
+    background-color: #E5DBD8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+.visit-insta-btn{
+    margin: 0 ;
+    width: fit-content;
+    font-size: 13px;
+    padding: 10px ;
+    margin-top: 20px;
+}
+
+li{
+    list-style-type: none;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(77, 77, 75);
+}
+.social-icon{
+    margin: 0px 10px;
+    font-size: 20px;
+    color: #CCAEAB;
+}
+.social-icon a{
+    color: #CCAEAB;
+}
+
+
+
+/*ABOUT PAGE*/
+
+.blogger-container{
+    height: 400px;
+    width: 100%;
+}
+.card{
+    border: none;
+}
+.team-card{
+    background-color: transparent;
+}
+
+.card-text{
+    font-family: 'Nanum Myeongjo', serif;
+}
+/*meet team*/
+/* style="font-size: 60px;color: #45443E;
+font-family: 'Kaisei Tokumin', serif;text-transform:uppercase;letter-spacing: 2px;" */
+.meet-team-text{
+    font-size: 60px;color: #45443E;
+font-family: 'Kaisei Tokumin', serif;text-transform:uppercase;letter-spacing: 2px;
+}
+/*count*/
+
+.count-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.count{
+    font-family: 'Lusitana', serif;
+    font-size: 80px;
+    color: #fff;
+}
+
+/*footer*/
+.footer{
+display: flex;justify-content: center;align-items: center;padding: 20px;margin-top: 10px;background-color: #CCAEAB;color: #fff;
+}
+@media (max-width:991px) {
+    .home-banner-img{
+        margin-top: auto;
+        margin-bottom: 40px;
+    }
+    .about-img{
+        margin:20px 0px
+    }
+    .meet-team-text{
+        font-size: 28px;
+    }
+    .the-blog{
+        font-size: 40px;
+    }
+    .episode-name{
+        padding-bottom: 20px;
+    }
+}
+@media (max-width:991px) {
+    .episode{
+       width: 100%;
+    }
+    
+}
+@media (max-width:699px) {
+    
+    .carousel-control-next, .carousel-control-prev {
+        width:60px;
+        height: fit-content;
+        top: 100%;
+        border: 1px solid #D6C4BE ;
+    
+    }
+    .carousel-control-next{
+        right: 30%;
+    }
+    .carousel-control-prev{
+        left: 30%;
+    }
+
+   
+}
+@media (max-width:460px) {
+    .galbato{
+       font-size: 20px!important;
+    }
+    .christina{
+        font-size: 45px;
+        margin-bottom: 0px;
+    }
+}
+@media (max-width:699px) {
+    
+    .carousel-control-next, .carousel-control-prev {
+        width:60px;
+        height: fit-content;
+        top: 100%;
+        border: 1px solid #D6C4BE ;
+    
+    }
+    .carousel-control-next{
+        right: 20%;
+    }
+    .carousel-control-prev{
+        left: 20%;
+    }
+
+   
+}
